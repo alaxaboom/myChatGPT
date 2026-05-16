@@ -5,7 +5,7 @@ OPENAI_API_KEY=your_api_key_here
 ```
 
 запустить сервер:
-cd server
+cd server\
 npm install
 npm run dev
 
