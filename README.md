@@ -23,3 +23,6 @@ npm run dev:client
 скриншоты:
 ![main](/client/public/main.png)
 ![chat](/client/public/main2.png)
+
+
+Чат выполнен без базы данных т.к. в задании указано не было
