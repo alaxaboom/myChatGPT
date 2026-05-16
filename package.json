@@ -1,0 +1,16 @@
+{
+  "name": "chatgpt-voice-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && nodemon --exec ts-node src/server.ts",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && tsc",
+    "start:server": "cd server && node dist/server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
